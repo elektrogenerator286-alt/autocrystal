@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "autocrystal",
+	"version": "${version}",
+	"name": "Auto Crystal",
+	"description": "Client macro: places and detonates end crystals on nearby obsidian.",
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": { "client": [ "com.example.autocrystal.AutoCrystalClient" ] },
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "=1.21.11",
+		"java": ">=21",
+		"fabric-api": ">=0.141.3"
+	}
+}
